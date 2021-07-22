@@ -1,27 +1,17 @@
-<!DOCTYPE HTML>
- <html>
+  
+<html>
     <head>
-        <title>Simple Interest Calculator</title>                                         
-  <script type="text/javascript">
-            function ComputeInterest()
-            {
-                p = document.getElementById("p").value;
-                n = document.getElementById("n").value;
-                r = document.getElementById("r").value;
-                q=((p*n*r)/100)
-                s=2020+Number(n);
-                result = document.getElementById("result");   
-                result.innerHTML = "If you deposit " + p + " at an interest rate of " + r + " You will receive an amount " + q + " in the year "+s ;  
-            }  
-        </script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
     </head>
-    <body>    
-       <h1 style="font-family: times new roman; font-size: 40px; color:blue ">Simple Interest Calculator</h1> 
-       <body style="background-color:wheat">
-         Amount: <input id="p"><br/><br/>
-        Interest Rate: <input id="r"><br/><br/>
-        No. of Years: <input id="n"><br/><br/>
-        <button onclick="ComputeInterest()">Compute Interest</button>
-        <p id="result"></p>
+    <body>
+        <h1>Simple Interest Calculator</h1>
+
+        Amount <input type="number"  id="principal">  <br/>
+        Rate <input type="number"  id="rate">  <br/>
+        No. of Years <input type="number"  id="years">  <br/>
+        Interest : <span id="result"></span><br>
+
+        <button onclick="compute()">Compute</button>
     </body>
 </html>
