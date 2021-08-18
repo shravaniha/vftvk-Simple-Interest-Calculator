@@ -1,4 +1,71 @@
-<body style="background-color:white">
-<h1 style="font-family: times new roman; font-size: 40px; color:blue ">Simple Interest Calculator</h1> 
+body 
+{
+    background-color: white;
+    color: #ffffff;
+    font-family: Arial;
+}
 
+h1
+{
+    color: grey;
+    font-family: Verdana;
+}
+
+.maindiv
+{
+    background-color: white;
+    color: black;
+    width: 500px;
+    padding: 20px;
+    border-radius: 25px;
+    margin-left: center;
+    margin-right: center;
+}
+
+/* #result
+{
+    display: none;
+} */
+
+.contents
+{
+    margin-left: 80px;
+}
+
+table td
+{
+    padding-bottom: 10px;
+}
+
+#compute
+{
+    margin-bottom: 15px;
+    color: black;
+    height: 25px;
+    width: 125px;
+}
+#principal{
+    height: 25px;
+    width: 190px;
+}
+
+#years{
+    height: 25px;
+    width: 45px;
+}
+
+#footer
+{
+    margin-top: 10px;
+}
+
+.labels
+{
+    width: 130px;
+}
+
+.highlight
+{
+    background-color: yellow;
+}
 
